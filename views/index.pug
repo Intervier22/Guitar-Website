@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    title Aditya-guitar-Academy
+    style
+      include ../static/style.css
+  body 
+    nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | AGA 
+            li #[a(href="/") Home]
+            li #[a(href="/") Aboutl]
+            li #[a(href="/") Services]
+            li #[a(href="/") Join]
+            li #[a(href="/") Contact us]
+
+    section#introsection  
+        div Welcome to Aditya's Guitar Academy
+        div.small   Eat Sleep and Play 
+        
+    section#missionsection  
+        h2 Our Mission
+        div.card
+            h3 Guitar Perfection
+            div.cardbox
+                div.card-img
+                    img(src="/static/l1.jpg")
+                div.cardcontent
+                    p This is the best guitar academy of universe
+          
+        div.card
+            h3 PLay the way you like
+            div.cardbox
+                div.card-img
+                    img(src="/static/l3.png")
+                div.cardcontent
+                    p This is the best guitar academy of universe
+        div.card
+            h3 Expert teaching
+              div.cardbox
+                div.card-img
+                    img(src="/static/l4.png")
+                div.cardcontent
+                    p This is the best guitar academy of universe
+    section#sponsorsection  
+        h2 Our sponsor
+        div#sponsors
+            img(src="/static/logo1.png",alt="sponsor image",class="spi")
+            img(src="/static/logo2.png",alt="sponsor image",class="spi")
+            img(src="/static/logo3.png",alt="sponsor image",class="spi")
+            img(src="/static/logo4.png",alt="sponsor image",class="spi")
+    footer#footersection
+        | Copyright (c) 2020 Adityaguitaracademy.com |All rights reserved
+    script
+      include ../static/index.js

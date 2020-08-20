@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.f{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mi{
+    width: 100%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid #9d8e8e;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px xolid black;
+    border-radius: 10px;
+    color: white;
+    background: crimson;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+.container{
+    min-height: 77vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+margin: 43px 0;
+}
+.container h1{
+    font-size: 34px;
+    font-family: 'ZCOOL XiaoWei', serif;
+    
+}
+@media only screen and(max-width:1208px){
+    body{
+        color: #000;
+    }
+}

@@ -1,0 +1,22 @@
+//- layout.pug
+html
+  head
+    title Aditya-guitar-Academy
+    block scripts
+    block style
+     
+  body
+    block content
+      nav#navbar.top
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | AGA 
+            li #[a(href="/") Home]
+            li #[a(href="/") Aboutl]
+            li #[a(href="/") Services]
+            li #[a(href="/") Join]
+            li #[a(href="/contact") Contact us]
+    block foot
+      footer#footersection
+        | Copyright (c) 2020 Adityaguitaracademy.com |All rights reserved
